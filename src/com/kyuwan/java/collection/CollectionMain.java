@@ -25,10 +25,8 @@ public class CollectionMain {
 		}
 		
 		// 향상된 for 문
-		for(Object item : list){
-			String string = item + "";
-			int number = Integer.parseInt(string);
-			System.out.println(number + 3);
+		for(int item : list){
+			System.out.println(item + 3);
 		}
 		
 		// 2. Map 계열
