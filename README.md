@@ -139,7 +139,9 @@ this.right = right;
 
 3. Set
 
-		```java
+
+			java
+		
 			HashSet<String> set = new HashSet<String>();
  
    			set.add("1");
@@ -150,7 +152,7 @@ this.right = right;
  
     		System.out.println(set);
 
-		```
+		
 
 
 	특징: 순서가 없고, 중복을 허용하지 않음 
