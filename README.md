@@ -140,8 +140,7 @@ this.right = right;
 3. Set
 
 
-			java
-		
+				
 			HashSet<String> set = new HashSet<String>();
  
    			set.add("1");
