@@ -1,12 +1,16 @@
 package com.kyuwan.java.array;
 
+import java.util.ArrayList;
+
 public class ArrayMain {
 
 	public static void main(String[] args) {
 
-
 		int arr[] = new int[10];
 		int arr2[] = {1,2,3,4,5};
+		
+		ArrayList array =  new ArrayList<>();
+		array.add(arr[1]);
 		
 		for(int a1 : arr){
 			System.out.println(a1);

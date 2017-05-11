@@ -1,12 +1,14 @@
 package com.kyuwan.java.collection;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class CollectionMain {
 
 	public static void main(String[] args) {
 
 		// 1. List 계열
+		// 내부적으로 값이 입력되면 값과 함께 순서가 저장되는 형태 
 		// .add(값) : 값입력
 		// .get(순서) : 값출력 
 		ArrayList<Integer> list = new ArrayList<>();
@@ -30,6 +32,12 @@ public class CollectionMain {
 		}
 		
 		// 2. Map 계열
+		// - (키, 값) 의 형태로 저장된다 
+		HashMap<String,String> map = new  HashMap<>();
+		map.put("key1", "이순신");
+		map.put("key2", "홍길동");
+	
+		System.out.println(map.get("key1"));
 		
 		// 3. Set 계
 		
