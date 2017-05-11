@@ -7,6 +7,8 @@ public class CollectionMain {
 	public static void main(String[] args) {
 
 		// 1. List 계열
+		// .add(값) : 값입력
+		// .get(순서) : 값출력 
 		ArrayList list = new ArrayList();
 		int a = 33;
 		
@@ -16,6 +18,10 @@ public class CollectionMain {
 		
 		for(int i = 0 ; i < list.size() ; i++){
 			System.out.println(list.get(i));
+		}
+		
+		for(Object item : list){
+			System.out.println(item);
 		}
 		
 		// 2. Map 계열
