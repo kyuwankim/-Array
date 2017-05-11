@@ -32,6 +32,21 @@ public class Word {
 		// 6. 글자를 치환할때 
 		String 바뀐글 = name.replace("하", "하하하");
 		System.out.println(바뀐글);
+		
+		// 숫자 갯수 구하기 (1부터 10000까지 8이라는 숫자가 총 몇번 나오는가?)
+		int count = 0;
+		for(int i = 0 ; i <= 10000 ; i ++){
+			String string = i+"";
+			int truth = 0 ;
+			truth = string.indexOf("8");
+			if(truth == -1){
+				truth = truth * 0 ;
+			}
+			count = count + truth;
+		}
+		System.out.print(count);
 	}
+	
+	
 
 }
