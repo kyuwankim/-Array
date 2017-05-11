@@ -129,8 +129,35 @@ this.right = right;
 					ArrayList array =  new ArrayList();
 		```
 2. Map
+	- HashMap
+	
+		```java
+				HashMap<String,String> map = new  HashMap<>();
+				map.put("key1", "이순신");
+				map.put("key2", "홍길동");
+		```
 
 3. Set
+
+		```java
+			HashSet<String> set = new HashSet<String>();
+ 
+   			set.add("1");
+    		set.add("2");
+    		set.add("3");
+    		set.add("4");
+    		set.add("5");
+ 
+    		System.out.println(set);
+
+		```
+
+
+	특징: 순서가 없고, 중복을 허용하지 않음 
+	
+	장점: 빠른 속도 
+	
+	단점: 단순 집합의 개념으로 정렬하려면 별도의 처리가 필요하다. 
 
 
 
